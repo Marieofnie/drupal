@@ -10,3 +10,12 @@
 - > ddev drush sql-cli <dumps/dump.sql
 
 - > ddev launch (site will be launched)
+
+## Dumps
+
+-when ready yopu need to export db changes, perform:
+
+- > ddev drush cr
+- > ddev drush sql-dump --result-file=../dumps/dump.sql
+
+and commit all changes to git.
